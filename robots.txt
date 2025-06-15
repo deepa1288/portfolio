@@ -1,5 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /logs/
+Allow: /
 
-User-agent: SemrushBot
-Disallow: /
+Sitemap: https://www.deepakafley.com.np/sitemap.xml
